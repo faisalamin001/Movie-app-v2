@@ -1,0 +1,33 @@
+.movies-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-fillholder {
+  width: 185px;
+  margin: 0 33px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.no-results {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 10%;
+}
+
+.loading-box {
+  min-width: 1380px;
+}
+
+.movies-list-container {
+  display: flex;
+  flex: 1;
+  min-height: 95%;
+  max-height: 100%;
+  justify-content: center;
+  flex-direction: column;
+}

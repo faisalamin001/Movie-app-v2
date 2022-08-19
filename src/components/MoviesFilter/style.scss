@@ -1,0 +1,52 @@
+.movies {
+  .movies-filter {
+    flex: 0 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      border: 1px solid #fff;
+      border-radius: 4px;
+      li {
+        display: inline-block;
+        padding: 6px 15px;
+        color: #fff;
+        font-size: 11px;
+        cursor: pointer;
+        user-select: none;
+        border-right: 1px solid #fff;
+        &:last-child {
+          border-right: 0;
+        }
+        &.active {
+          background: #fff;
+          color: #000000;
+        }
+      }
+    }
+  }
+
+  .filter-content {
+    flex-direction: row;
+    display: flex;
+    width: 94%;
+    margin-right: auto;
+    justify-content: flex-end;
+  }
+
+  .select-box {
+    width: 160px;
+    z-index: 8;
+    padding-right: 2%;
+  }
+
+  @media screen and (min-width: 1440px) {
+    .filter-content {
+      width: 94%;
+    }
+  }
+}

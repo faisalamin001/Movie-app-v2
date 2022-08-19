@@ -1,0 +1,51 @@
+.credits {
+  position: relative;
+  margin-bottom: 30px;
+
+  .credit-fillholder {
+    min-width: 115px;
+    min-height: 160px;
+    content: "";
+  }
+
+  .loading-box {
+    height: 225px;
+    &:before {
+      height: 30px;
+      width: 30px;
+    }
+  }
+
+  .show-all-button {
+    font-size: 14px !important;
+    font-weight: bold;
+    padding: 5px 8px !important;
+    color: #ddd;
+    cursor: pointer;
+    border: 1px solid #fff;
+    line-height: 18px;
+    border-radius: 3px;
+    user-select: none;
+    &.active {
+      background: #fff;
+      border: 1px solid transparent;
+      color: #000;
+    }
+  }
+
+  .credits-title {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.credits-inline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
